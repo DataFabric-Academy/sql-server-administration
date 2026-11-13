@@ -1,0 +1,33 @@
+# Binary & large source material (not for public repo)
+*.pptx
+*.bak
+*.mdf
+*.ldf
+*.xel
+*.trc
+*.ispac
+
+# Legacy source material kept locally only
+Old/
+
+# VS / SSMS artifacts
+.vs/
+*.suo
+*.ssms_suo
+*.ssmssqlproj.user
+*.ssmssln.user
+bin/
+obj/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup/restore artifacts created by labs
+Labs_Work/
+*.cab
+*.cer
+*.pvk
+*.pky
+master.key
