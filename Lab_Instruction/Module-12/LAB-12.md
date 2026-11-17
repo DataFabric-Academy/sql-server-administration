@@ -21,7 +21,7 @@
    **Windows authentication**
 2. บนเมนู **File** ชี้ไปที่ **Open** แล้วคลิก **Project/Solution**
 3. ในกล่องโต้ตอบ Open Project นำทางไปยังโฟลเดอร์ `D:\Labfiles\Lab12\Starter\Project` คลิก
-   `Project.ssmssln` แล้วคลิก **Open**
+   `Project.sln` แล้วคลิก **Open**
 4. ใน Solution Explorer ขยาย **Queries** แล้วดับเบิลคลิก `Exercise 01 - system_health.sql`
 5. แก้ไขโค้ดภายใต้ comment ที่ขึ้นต้นด้วย Task 2 ให้อ่านดังนี้:
    ```sql

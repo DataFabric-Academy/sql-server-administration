@@ -23,7 +23,7 @@
           </SSIS:Property>
           <SSIS:Property SSIS:Name="CreationDate">2016-04-19T00:57:35.0071642-07:00</SSIS:Property>
           <SSIS:Property SSIS:Name="CreatorName">DATAFABRIC\Student</SSIS:Property>
-          <SSIS:Property SSIS:Name="CreatorComputerName">MIA-SQL</SSIS:Property>
+          <SSIS:Property SSIS:Name="CreatorComputerName">DATAFABRIC-SQL-x</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
           <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhd157L/xZk6EZ8uS8Bq2KAAAAAACAAAAAAADZgAAwAAAABAAAAA64qSw1HFzR84Jtl++NBoSAAAAAASAAACgAAAAEAAAALCZ1GtvKPeoVKPF+RcE8zWIAAAA0aPuFh3f2DkJL7haTMO6SLL/o5FfuAHTdGzx8KwDM5nIHA1gq3fAf40+cKDMIkvO0GH60zhSdM2fZJJfhKDyDxosAX7V7NdjLyv3dfKLnLLoFhsNnqBLzrqXY6GhwjVe7HWFZruwwaRL6NFF8jIfq8uZl3K87y2T5Yk9tskLPDvcweaOyp+O2BQAAAA4V3GC8TGTVgv2lkct1lUPVmuOrQ==</SSIS:Property>
@@ -52,7 +52,7 @@
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
-                <SSIS:Parameter SSIS:Name="CM.MIA-SQL.InternetSales.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.DATAFABRIC-SQL-x.InternetSales.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -63,11 +63,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=MIA-SQL;User ID=PromoteApp;Initial Catalog=InternetSales;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=DATAFABRIC-SQL-x;User ID=PromoteApp;Initial Catalog=InternetSales;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.MIA-SQL.InternetSales.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.DATAFABRIC-SQL-x.InternetSales.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -82,7 +82,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.MIA-SQL.InternetSales.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.DATAFABRIC-SQL-x.InternetSales.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -97,7 +97,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.MIA-SQL.InternetSales.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.DATAFABRIC-SQL-x.InternetSales.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -108,11 +108,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">MIA-SQL</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">DATAFABRIC-SQL-x</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.MIA-SQL.InternetSales.UserName">
+                <SSIS:Parameter SSIS:Name="CM.DATAFABRIC-SQL-x.InternetSales.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>

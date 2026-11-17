@@ -57,7 +57,7 @@
 #### Task 5: Generate Audited Activity
 1. ใน SQL Server Management Studio บนเมนู **File** ชี้ไปที่ **Open** แล้วคลิก **Project/Solution**
 2. ในหน้าต่าง Open Project เรียกดูไปยัง `D:\Labfiles\Lab04\Starter\Project` แล้วดับเบิลคลิก
-   `Project.ssmssln`
+   `Project.sln`
 3. ใน Solution Explorer ขยาย **Queries** แล้วดับเบิลคลิก query `Lab Exercise 01 - audit activity.sql`
 4. ไฮไลต์โค้ดภายใต้หัวข้อ Task 1 แล้วคลิก **Execute**
 

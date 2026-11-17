@@ -3,7 +3,7 @@
   DTS:refId="Package"
   DTS:CreationDate="4/19/2016 12:57:35 AM"
   DTS:CreationName="Microsoft.Package"
-  DTS:CreatorComputerName="MIA-SQL"
+  DTS:CreatorComputerName="DATAFABRIC-SQL-x"
   DTS:CreatorName="DATAFABRIC\Student"
   DTS:DTSID="{EEA5EA00-3BD4-4D63-8CFC-34F4920D8967}"
   DTS:ExecutableType="Microsoft.Package"
@@ -17,15 +17,15 @@
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[MIA-SQL.InternetSales]"
+      DTS:refId="Package.ConnectionManagers[DATAFABRIC-SQL-x.InternetSales]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{B1DEEB99-4FA7-406B-8AEC-687B584A5765}"
-      DTS:ObjectName="MIA-SQL.InternetSales">
+      DTS:ObjectName="DATAFABRIC-SQL-x.InternetSales">
       <DTS:PropertyExpression
         DTS:Name="Password">"Pa$$w0rd"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=MIA-SQL;User ID=PromoteApp;Initial Catalog=InternetSales;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=DATAFABRIC-SQL-x;User ID=PromoteApp;Initial Catalog=InternetSales;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
@@ -256,8 +256,8 @@ ORDER BY NEWID();</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[MIA-SQL.InternetSales]"
-                  connectionManagerRefId="Package.ConnectionManagers[MIA-SQL.InternetSales]"
+                  connectionManagerID="Package.ConnectionManagers[DATAFABRIC-SQL-x.InternetSales]"
+                  connectionManagerRefId="Package.ConnectionManagers[DATAFABRIC-SQL-x.InternetSales]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>

@@ -39,7 +39,7 @@
 20. ในกล่องโต้ตอบ Connect to Server คลิก **Connect**
 21. บนเมนู **File** ชี้ไปที่ **Open** แล้วคลิก **Project/Solution**
 22. ในกล่องโต้ตอบ Open Project นำทางไปยัง `D:\Labfiles\Lab14\Starter\Project` แล้วดับเบิลคลิก
-    `Project.ssmssln`
+    `Project.sln`
 23. ใน Solution Explorer ขยาย **Queries** แล้วดับเบิลคลิก `Lab Exercise 01 - currency codes.sql`
 24. คลิก **Execute** เพื่อตรวจสอบข้อมูลที่คุณได้โหลด
 25. บนเมนู **File** คลิก **Close**

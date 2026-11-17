@@ -15,7 +15,7 @@
    **Windows authentication**
 2. บนเมนู **File** ชี้ไปที่ **Open** แล้วคลิก **Project/Solution**
 3. ในกล่องโต้ตอบ Open Project นำทางไปยัง `D:\Labfiles\Lab02\Starter\Project` คลิก
-   `Project.ssmssln` แล้วคลิก **Open**
+   `Project.sln` แล้วคลิก **Open**
 4. ใน Solution Explorer ขยาย **Queries** แล้วดับเบิลคลิก `Lab Exercise 01 - server roles.sql`
 5. ภายใต้หัวข้อสำหรับ Task 1 พิมพ์โค้ดต่อไปนี้:
    ```sql

@@ -3,7 +3,7 @@
   DTS:refId="Package"
   DTS:CreationDate="3/16/2016 7:24:57 AM"
   DTS:CreationName="Microsoft.Package"
-  DTS:CreatorComputerName="MIA-SQL"
+  DTS:CreatorComputerName="DATAFABRIC-SQL-x"
   DTS:CreatorName="DATAFABRIC\Student"
   DTS:DTSID="{CEFF6F0F-688A-4E2C-8A59-F3B2BE46AFA2}"
   DTS:ExecutableType="Microsoft.Package"
@@ -17,13 +17,13 @@
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[MIA-SQL.AdventureWorks]"
+      DTS:refId="Package.ConnectionManagers[DATAFABRIC-SQL-x.AdventureWorks]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{2F47E341-8956-4C66-95A0-50D9BF860B19}"
-      DTS:ObjectName="MIA-SQL.AdventureWorks">
+      DTS:ObjectName="DATAFABRIC-SQL-x.AdventureWorks">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=MIA-SQL;Initial Catalog=AdventureWorks;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DATAFABRIC-SQL-x;Initial Catalog=AdventureWorks;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -254,8 +254,8 @@
               <connections>
                 <connection
                   refId="Package\Export Prospects\usp_prospect_list.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[MIA-SQL.AdventureWorks]"
-                  connectionManagerRefId="Package.ConnectionManagers[MIA-SQL.AdventureWorks]"
+                  connectionManagerID="Package.ConnectionManagers[DATAFABRIC-SQL-x.AdventureWorks]"
+                  connectionManagerRefId="Package.ConnectionManagers[DATAFABRIC-SQL-x.AdventureWorks]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
