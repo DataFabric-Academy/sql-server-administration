@@ -81,6 +81,14 @@ Module_XX_Topic/
     └── README.md                 # 🧪 แล็บรวมประจำโมดูล (Instruction + Code block)
 ```
 
+### แหล่งข้อมูลแล็บ (Lab Resources)
+
+| แหล่ง | รูปแบบ | เหมาะกับ |
+|:------|:-------|:---------|
+| `Module_XX_*/Labs/README.md` | แล็บ self-study ครบในไฟล์เดียว (SQL Server 2025, ไม่ต้องมี domain) | ผู้เรียนด้วยตนเอง / ทุกคน |
+| [`Lab_Instruction/`](./Lab_Instruction/README.md) | คู่มือแล็บห้องเรียนแบบ step-by-step ระดับคลิก GUI (ต้องมี VM domain `datafabric.local` + `D:\Labfiles`) | การอบรมที่ใช้ courseware VM |
+| `Old/` | วัสดุต้นฉบับ 20764D แบบ local-only (ไม่ถูก track ใน git — `.gitignore`) | trainer ผู้ดูแล image เท่านั้น |
+
 ### Prerequisites
 
 | ข้อกำหนด | รายละเอียด |

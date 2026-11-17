@@ -82,6 +82,9 @@
 
 1. **Demo-first**: ทุกหัวข้อมี demo script ใน `Sections/*/Scripts/` — สาธิตก่อน แล้วให้ผู้เรียนทำซ้ำ
 2. **Labs ท้ายโมดูล** เป็นแบบ "Instruction + Code block" — ผู้เรียนก๊อปรันได้จากเอกสาร
+   - หากอบรมด้วย courseware VM (domain `datafabric.local`) ให้ใช้คู่มือแล็บห้องเรียนแทน:
+     [`Lab_Instruction/`](../Lab_Instruction/README.md) (LAB-01…LAB-14 + ไฟล์ Starter พร้อม deploy
+     ไป `D:\Labfiles\`) — ดูวิธีเตรียม environment และรายการ `.bak` ที่ต้องมีใน README ของโฟลเดอร์นั้น
 3. **สไลด์เดิมมีข้อผิดพลาดที่ควรแก้ตอนสอน**:
    - SQL Trace/Profiler → ย้ำว่า **deprecated** ให้สอน Extended Events เป็นหลัก (บทที่ 12)
    - SQLPS/ISE → ใช้ **SqlServer module + PowerShell 7 + VS Code** (บทที่ 11)

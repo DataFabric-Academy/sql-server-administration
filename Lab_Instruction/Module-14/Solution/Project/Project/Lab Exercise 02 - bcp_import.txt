@@ -1,0 +1,1 @@
+bcp AdventureWorks.Accounts.ExchangeRate in D:\Labfiles\Lab15\Starter\Import\currency_exchange_rates.txt -S localhost -T -u -c -t ,
