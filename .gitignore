@@ -12,6 +12,7 @@ Old/
 
 # VS / SSMS artifacts
 .vs/
+.zcode/
 *.suo
 *.ssms_suo
 *.ssmssqlproj.user
