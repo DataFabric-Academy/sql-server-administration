@@ -23,7 +23,7 @@
       DTS:ObjectName="DATAFABRIC-SQL-x.AdventureWorks">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DATAFABRIC-SQL-x;Initial Catalog=AdventureWorks;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DATAFABRIC-SQL-x;Initial Catalog=AdventureWorks;Provider=SQLNCLI11.1;Integrated Security=SSPI;TrustServerCertificate=True;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
